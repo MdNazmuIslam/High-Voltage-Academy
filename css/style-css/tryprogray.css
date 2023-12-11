@@ -1,0 +1,10 @@
+.title,.sub-title,.somall-title{
+    font-size: 6.2rem;
+    color: var(--white-color);
+    }
+.sub-title{
+font-size: 4.8rem;
+}
+.somall-title{
+    font-size: 3.6rem;
+    }

@@ -1,0 +1,51 @@
+@media (max-width:1199.98px){
+
+    .paimary-navbar{
+        transition: all 0.5s;
+        width: 100%;
+       position: absolute;
+       top: -500px;
+    }
+    .paimary-navbarActive{
+        transition: all 0.5s;
+        position: relative !important;
+        top: 0px;
+    }
+    
+}
+@media (min-width:1199.98px){
+    .navbar .navbtn{
+        display: none;
+    }
+}
+@media (max-width:991.98px){
+
+    .Home-right .hero-man-img img{
+        display: none;
+        }
+        .slick-prev{
+            top: -3rem;
+             left: 80%;
+         }
+
+}
+@media (max-width:575.98px){
+    .navbar-brand img{
+        width: 100px;
+    }
+    .singandlogn .navbar .nav-item{
+        padding: 0.5rem 1rem;
+    }
+     .singandlogn .navbar .nav-item .nav-link{
+    font-size: 1.8rem;
+    }
+}
+@media (min-width:991.98px){
+    .servces-title .sub-title{
+        width: 60%;
+        }
+        .servces-title title{
+            width: 75%;
+            }
+}
+

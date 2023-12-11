@@ -1,0 +1,57 @@
+
+header{
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
+    background-color: var(--white-color);
+}
+.navbar-brand img{
+    width: 150px;
+}
+nav .navbar-nav .nav-item,.singandlogn .navbar .nav-item{
+    padding: 0.5rem 1.5rem;
+    transition: all 0.;
+    border-radius: 0.1rem;
+}
+
+nav .navbar-nav .nav-item .nav-link,.singandlogn .navbar .nav-item .nav-link{
+color: var(--secondar-color);
+font-size: 2.2rem;
+transition: all 0.3s;
+}
+nav .navbar-nav .nav-item:hover,.singandlogn .navbar .nav-item:hover{
+transition: all 0.3s;
+padding: 0.8rem 1.8rem;
+background-color: var(--pimary-color);
+}
+nav .navbar-nav .nav-item:hover .nav-link,.singandlogn .navbar .nav-item:hover .nav-link{
+    transition: all 0.3s;
+    font-weight: 600;
+    color: var(--white-color);
+}
+nav .navbar-nav .active,.singandlogn .navbar .active{
+    padding: 0.8rem 1.8rem;
+    background-color: var(--pimary-color);
+}
+nav .navbar-nav .active .nav-link,.singandlogn .navbar .active .nav-link{
+    font-weight: 600;
+    color: var(--white-color);
+}
+.singandlogn{
+    transition: all 0.5s;
+}
+
+.navbtn:focus{
+    box-shadow: none;
+}
+
+.navbtn{
+font-size: 2.5rem;
+}
+.navbtn i{
+    cursor: pointer;
+}
+.navbtn .xmark{
+    display: none;
+}
